@@ -1,0 +1,701 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet'>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>Cedric Renggli</title>
+    <meta name="description" content="Academic webpage of Cedric Renggli.">
+
+    <style type="text/css" media="screen">
+      body {
+        font-family: 'Lato', sans-serif;
+        font-size: 16px;
+      }
+
+      h1 {
+        text-align: center;
+        margin-top: 80px;
+        margin-bottom: 5px;
+        font-size: 45px;
+      }
+
+      h2 {
+        margin-bottom: 5px;
+      }
+
+      h3 {
+        font-size: 24px;
+      }
+
+      div.innerleft{
+        width: 240px;
+        margin-right: 103px;
+      }
+
+      div.innerright{
+        width: 240px;
+        margin-left: 103px;
+      }
+
+      hr{
+        border-top: 0px;
+      }
+
+      .hr1 {
+        height: 5px;
+        background: #AAAAAA;
+        margin-top: 5px;
+      }
+
+      .hr2 {
+        height: 3px;
+        background: #EEEEEE;
+        margin-top: 2px;
+      }
+
+      div.contactbox {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        background: #EEEEEE;
+      }
+
+      div.pub {
+        margin-bottom: 15px
+      }
+
+      div.pub_title {
+        font-weight: bold;
+      }
+
+      div.pub_title a {
+        color: #555555;
+      }
+
+      div.pub_author,
+      div.pub_journal,
+      div.pub_misc{
+        /*pass*/
+      }
+
+      div.pub_journal {
+        font-style: italic
+      }
+
+      .nav-item a{
+        font-size: 18px;
+      }
+
+      :target {display: block; position: relative; top: -75px; display: hidden;}
+    </style>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-142188401-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-142188401-1');
+    </script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+      <div class="container">
+        <div data-toggle="collapse" data-target=".navbar-collapse.show">
+          <a class="navbar-brand" href="#">Cedric Renggli</a>
+        </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+              <a class="nav-link" href="#aboutme">About me</a>
+            </li>
+            <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+              <a class="nav-link" href="#publications">Publications</a>
+            </li>
+            <!--<li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+              <a class="nav-link" href="#students">Students</a>
+            </li>-->
+            <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+
+    <h1>Cedric Renggli</h1>
+    <div align="center">
+      <div class="innerleft">
+        <hr class="hr1" style="margin-bottom: 5px;" />
+      </div>
+      <div class="innerright">
+        <hr class="hr2" />
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-xs-2 col-sm-4" align="center">
+        <img src="cedric_renggli.jpg" alt="Cedric Renggli" style="max-width:50%" class="rounded-circle text-center" />
+        <!-- <br />
+        <a href="cedric_renggli.jpg" target="_blank">[High Resolution Picture]</a>-->
+        <br />
+        <br />
+      </div>
+      <div class="col-xs-10 col-sm-8">
+        <a name="aboutme"></a>
+        <p class="lead">
+        I am a Machine Learning Research Engineer at <a href="https://www.apple.com/" target="_blank">Apple</a>. My main research interest lies in the foundation of novel, usable, and scalable data-centric systems, with a special focus on efficiently involving machine learning models.
+        </p>
+
+        <p>
+          Previously, I was a PostDoc in the <a href="https://www.ifi.uzh.ch/en/dast.html" target="_blank">Data Systems and Theory</a> group lead by <a href="https://www.ifi.uzh.ch/en/dast/people/Olteanu.html" target="_blank">Dan Olteanu</a> at UZH.
+          I defended my thesis on <i>Building Data-Centric Systems for Machine Learning Development and Operations</i> at <a href="https://ethz.ch/en.html" target="_blank">ETH Zurich</a>'s <a href="http://www.ds3lab.org" target="_blank">DS3Lab</a> under the supervision of <a href="https://ds3lab.inf.ethz.ch/members/ce-zhang.html" target="_blank">Ce Zhang</a>.
+          I hold a bachelor's degree from the Bern University of Applied Sciences and received my MSc in Computer Science from ETH Zurich in 2018. My work on <i>Efficient Sparse AllReduce For Scalable Machine Learning</i> was awarded with the silver medal of ETH Zurich for outstanding master thesis. 
+          During my PhD, I have worked as a research intern and student research consultant at Google Brain.
+        </p>
+
+        <!--<p>
+        My office is located at AND 2.64 and feel free to contact me by email <a href="mailto:renggli@ifi.uzh.ch" target="_blank">renggli@ifi.uzh.ch</a>.<br /
+          You can also find me on <a href="https://twitter.com/rengglic" target="_blank">Twitter</a> and <a href="https://www.linkedin.com/in/cedric-renggli-017832b3/" target="_blank">LinkedIn</a>.</p>-->
+      </div>
+    </div>
+
+    <a name="publications"></a>
+    <h2>Publications</h2>
+    <div class="innerleft">
+      <hr class="hr1"/>
+    </div>
+
+    <p>For a up-to-date list of my publications check my profile on <a href="https://scholar.google.com/citations?user=-gquq44AAAAJ&hl=de&oi=ao" target="_blank">Google Scholar.</a></p>
+
+
+    <div class="row">
+      <div class="col-sm-2">
+        <h3>2023</h3>
+      </div>
+      <div class="col-sm-10">
+        <div class="pub">
+          <div class="pub_title">
+            SHiFT: An Efficient, Flexible Search Engine for Transfer Learning
+          </div>
+          <div class="pub_author">
+            <u>Cedric Renggli</u>, Xiaozhe Yao, Luka Kolar, Luka Rimanic, Ana Klimovic and Ce Zhang
+          </div>
+          <div class="pub_journal">
+            To appear in International Conference on Very Large Data Bases (VLDB) 2023
+          </div>
+          <div class="pub_misc">
+            <a href="https://arxiv.org/abs/2204.01457" target="_blank">[Paper]</a>
+          </div>
+        </div>
+        <div class="pub">
+          <div class="pub_title">
+            Automatic Feasibility Study via Data Quality Analysis for ML: A Case-Study on Label Noise
+          </div>
+          <div class="pub_author">
+            <u>Cedric Renggli</u>*, Luka Rimanic*, Luka Kolar*, Wentao Wu and Ce Zhang
+          </div>
+          <div class="pub_journal">
+            To appear in IEEE International Conference on Data Engineering (ICDE) 2023
+          </div>
+          <div class="pub_misc">
+            <a href="https://arxiv.org/abs/2010.08410" target="_blank">[Paper]</a>
+          </div>
+        </div>
+        <div class="pub">
+          <div class="pub_title">
+            DeepSE-WF: Unified Security Estimation for Website Fingerprinting Defenses
+          </div>
+          <div class="pub_author">
+            Alexander Veicht, <u>Cedric Renggli</u> and Diogo Barradas
+          </div>
+          <div class="pub_journal">
+            To appear in Privacy Enhancing Technologies Symposium (PETS) 2023 
+          </div>
+          <div class="pub_misc">
+            <a href="https://arxiv.org/abs/2203.04428" target="_blank">[Paper]</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-2">
+        <h3>2022</h3>
+      </div>
+      <div class="col-sm-10">
+        <div class="pub">
+          <div class="pub_title">
+            Which Model to Transfer? Finding the Needle in the Growing Haystack
+          </div>
+          <div class="pub_author">
+            <u>Cedric Renggli</u>, Andre Susano Pinto, Luka Rimanic, Joan Puigcerver, Carlos Riquelme, Ce Zhang and Mario Lucic
+          </div>
+          <div class="pub_journal">
+            IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2022
+          </div>
+          <div class="pub_misc">
+            <a href="https://arxiv.org/abs/2010.06402" target="_blank">[Paper]</a>
+          </div>
+        </div>
+        <div class="pub">
+          <div class="pub_title">
+            Dynamic Human Evaluation for Relative Model Comparisons
+          </div>
+          <div class="pub_author">
+            Thórhildur Thorleiksdóttir, <u>Cedric Renggli</u>, Nora Hollenstein and Ce Zhang
+          </div>
+          <div class="pub_journal">
+            Language Resources and Evaluation Conference (LREC) 2022
+          </div>
+          <div class="pub_misc">
+            <a href="https://arxiv.org/abs/2112.08048" target="_blank">[Paper]</a>
+          </div>
+        </div>
+        <div class="pub">
+          <div class="pub_title">
+            In-Database Machine Learning with CorgiPile: Stochastic Gradient Descent without Full Data Shuffle
+          </div>
+          <div class="pub_author">
+            Lijie Xu, ..., <u>Cedric Renggli</u>, ..., Wentao Wu and Ce Zhang
+          </div>
+          <div class="pub_journal">
+            ACM Special Interest Group in Management Of Data (SIGMOD) 2022
+          </div>
+          <div class="pub_misc">
+            <a href="https://dl.acm.org/doi/10.1145/3514221.3526150" target="_blank">[Paper]</a>
+            <a href="https://arxiv.org/abs/2206.05830" target="_blank">[Technical Report]</a>
+          </div>
+        </div>
+        <div class="pub">
+          <div class="pub_title">
+            Learning to Merge Tokens in Vision Transformers
+          </div>
+          <div class="pub_author">
+            <u>Cedric Renggli</u>*, Andre Susano Pinto*, Neil Houlsby, Basil Mustafa, Joan Puigcerver and Carlos Riquelme*
+          </div>
+          <div class="pub_journal">
+            Sparsity in Neural Networks (SSN) Workshop, <strong>Honorable Mentions</strong>
+          </div>
+          <div class="pub_misc">
+            <a href="https://arxiv.org/abs/2202.12015" target="_blank">[Paper]</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-2">
+        <h3>2021</h3>
+      </div>
+      <div class="col-sm-10">
+        <div class="pub">
+          <div class="pub_title">
+            Evaluating Bayes Error Estimators on Real-World Datasets with FeeBee
+          </div>
+          <div class="pub_author">
+            <u>Cedric Renggli</u>*, Luka Rimanic*, Nora Hollenstein and Ce Zhang
+          </div>
+          <div class="pub_journal">
+            Neural Information Processing Systems (NeurIPS) 2021, Datasets and Benchmarks
+          </div>
+          <div class="pub_misc">
+            <a href="https://arxiv.org/abs/2108.13034" target="_blank">[Paper]</a>
+          </div>
+        </div>
+        <div class="pub">
+          <div class="pub_title">
+            A Data Quality-Driven View of MLOps
+          </div>
+          <div class="pub_author">
+            <u>Cedric Renggli</u>, Luka Rimanic, Nezihe Merve Gürel, Bojan Karlaš, Wentao Wu and Ce Zhang
+          </div>
+          <div class="pub_journal">
+            IEEE Data Engineering Bulletin March 2021
+          </div>
+          <div class="pub_misc">
+            <a href="http://sites.computer.org/debull/A21mar/p11.pdf" target="_blank">[Paper]</a>
+          </div>
+        </div>
+        <div class="pub">
+          <div class="pub_title">
+            Scalable Transfer Learning with Expert Models
+          </div>
+          <div class="pub_author">
+            Joan Puigcerver, Carlos Riquelme, Basil Mustafa, <u>Cedric Renggli</u>, Andre Susano Pinto, Sylvain Gelly, Daniel Keysers and Neil Houlsby
+          </div>
+          <div class="pub_journal">
+            International Conference on Learning Representations (ICLR) 2021
+          </div>
+          <div class="pub_misc">
+            <a href="https://openreview.net/pdf?id=23ZjUGpjcc" target="_blank">[Paper]</a>
+          </div>
+        </div>
+        <div class="pub">
+          <div class="pub_title">
+            Ease.ML: A Lifecycle Management System for MLDev and MLOps
+          </div>
+          <div class="pub_author">
+            Aguilar Leonel, ..., <u>Cedric Renggli</u>, ..., Wentao Wu and Ce Zhang
+          </div>
+          <div class="pub_journal">
+            Conference on Innovative Data Systems Research (CIDR) 2021
+          </div>
+          <div class="pub_misc">
+            <a href="http://cidrdb.org/cidr2021/papers/cidr2021_paper26.pdf" target="_blank">[Paper]</a>
+          </div>
+        </div>
+        <div class="pub">
+          <div class="pub_title">
+            Decoding EEG Brain Activity for Multi-Modal Natural Language Processing
+          </div>
+          <div class="pub_author">
+            Nora Hollenstein, <u>Cedric Renggli</u>, Benjamin Glaus, Maria Barrett, Marius Troendle, Nicolas Langer and Ce Zhang
+          </div>
+          <div class="pub_journal">
+            Frontiers in Human Neuroscience Vol. 15 2021
+          </div>
+          <div class="pub_misc">
+            <a href="https://doi.org/10.3389/fnhum.2021.659410" target="_blank">[Paper]</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-2">
+        <h3>2020</h3>
+      </div>
+      <div class="col-sm-10">
+        <div class="pub">
+          <div class="pub_title">
+            On Convergence of Nearest Neighbor Classifiers over Feature Transformations
+          </div>
+          <div class="pub_author">
+            Luka Rimanic*, <u>Cedric Renggli</u>*, Bo Li and Ce Zhang
+          </div>
+          <div class="pub_journal">
+            Neural Information Processing Systems (NeurIPS) 2020
+          </div>
+          <div class="pub_misc">
+            <a href="https://papers.nips.cc/paper/2020/file/93d9033636450402d67cd55e60b3f926-Paper.pdf" target="_blank">[Paper]</a>
+            <a href="https://arxiv.org/pdf/2010.07765.pdf" target="_blank">[Full Paper]</a>
+          </div>
+        </div>
+        <div class="pub">
+          <div class="pub_title">
+            Ease.ml/snoopy in Action: Towards Automatic Feasibility Analysis for Machine Learning Application Development
+          </div>
+          <div class="pub_author">
+            <u>Cedric Renggli</u>*, Luka Rimanic*, Luka Kolar, Wentao Wu and Ce Zhang
+          </div>
+          <div class="pub_journal">
+            International Conference on Very Large Data Bases (VLDB) 2020, Demo
+          </div>
+          <div class="pub_misc">
+            <a href="http://www.vldb.org/pvldb/vol13/p2837-renggli.pdf" target="_blank">[Demo Paper]</a><a href="https://www.youtube.com/watch?v=HQ0E1j35pU4" target="_blank">[Video]</a>
+          </div>
+        </div>
+        <div class="pub">
+          <div class="pub_title">
+            Observer Dependent Lossy Image Compression
+          </div>
+          <div class="pub_author">
+            Maurice Weber, <u>Cedric Renggli</u>, Helmut Grabner and Ce Zhang
+          </div>
+          <div class="pub_journal">
+            German Conference on Pattern Recognition (DAGM-GCPR) 2020
+          </div>
+          <div class="pub_misc">
+            <a href="https://arxiv.org/abs/1910.03472" target="_blank">[Paper]</a>
+          </div>
+        </div>
+        <div class="pub">
+          <div class="pub_title">
+            Building Continuous Integration Services for Machine Learning 
+          </div>
+          <div class="pub_author">
+            Bojan Karlaš, Matteo Interlandi, <u>Cedric Renggli</u>, Wentao Wu, Ce Zhang, Deepak Mukunthu Iyappan Babu, Jordan Edwards, Chris Lauren, Andy Xu and Markus Weimer
+          </div>
+          <div class="pub_journal">
+            Special Interest Group on Knowledge Discovery and Data Mining (SIGKDD) 2020, Applied Data Science, <strong>Oral Presentation 44/756</strong>
+          </div>
+          <div class="pub_misc">
+            <a href="https://dl.acm.org/doi/abs/10.1145/3394486.3403290" target="_blank">[Paper]</a><a href="https://www.youtube.com/watch?v=m8aV1HnOnN0" target="_blank">[Video]</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-2">
+        <h3>2019</h3>
+      </div>
+      <div class="col-sm-10">
+        <div class="pub">
+          <div class="pub_title">
+            SparCML: High-Performance Sparse Communication for Machine Learning
+          </div>
+          <div class="pub_author">
+            <u>Cedric Renggli</u>, Saleh Ashkboos, Mehdi Aghagolzadeh,
+            Dan Alistarh and 
+            Torsten Hoefler
+          </div>
+          <div class="pub_journal">
+            High Performance Computing, Networking, Storage and Analysis (SC) 2019
+          </div>
+          <div class="pub_misc">
+            <a href="files/sparcml_sc_19.pdf" target="_blank">[Paper]</a>
+          </div>
+        </div>
+        <div class="pub">
+          <div class="pub_title">
+            <a href="http://ease.ml/ci/" target="_blank">Ease.ml/ci</a> and <a href="http://ease.ml/ci/" target="_blank">Ease.ml/meter</a> in Action: Towards Data Management for Statistical Generalization
+          </div>
+          <div class="pub_author">
+            <u>Cedric Renggli</u>*, Frances Ann Hubis*, Bojan Karlaš, Kevin Schawinski, Wentao Wu and Ce Zhang
+          </div>
+          <div class="pub_journal">
+            International Conference on Very Large Data Bases (VLDB) 2019, Demo
+          </div>
+          <div class="pub_misc">
+            <a href="http://www.vldb.org/pvldb/vol12/p1962-renggli.pdf" target="_blank">[Demo Paper]</a>
+          </div>
+        </div>
+        <div class="pub">
+          <div class="pub_title">
+            Distributed Learning over Unreliable Networks
+          </div>
+          <div class="pub_author">
+            Chen Yu, Hanlin Tang, <u>Cedric Renggli</u>, Simon Kassing, Ankit Singla, Dan Alistarh, Ji Liu and Ce Zhang
+          </div>
+          <div class="pub_journal">
+            International Conference on Machine Learning (ICML) 2019
+          </div>
+          <div class="pub_misc">
+            <a href="http://proceedings.mlr.press/v97/yu19f/yu19f-supp.pdf" target="_blank">[Paper]</a>
+          </div>
+        </div>
+        <div class="pub">
+          <div class="pub_title">
+             Continuous Integration of Machine Learning Models with <a href="http://ease.ml/ci/" target="_blank">ease.ml/ci</a>: Towards a Rigorous Yet Practical Treatment
+          </div>
+          <div class="pub_author">
+            <u>Cedric Renggli</u>, Bojan Karlaš, Bolin Ding, Feng Liu, Kevin Schawinski, Wentao Wu and Ce Zhang
+          </div>
+          <div class="pub_journal">
+            Conference on Systems and Machine Learning (SysML) 2019
+          </div>
+          <div class="pub_misc">
+            <a href="https://mlsys.org/Conferences/2019/doc/2019/162.pdf" target="_blank">[Paper]</a><a href="files/slides_sysml19.pdf" target="_blank">[Slides]</a><a href="https://www.youtube.com/watch?v=yzABa3G509o" target="_blank">[Video]</a>
+          </div>
+        </div>
+        <div class="pub">
+          <div class="pub_title">
+            Speeding up Percolator
+          </div>
+          <div class="pub_author">
+            John T. Halloran, Hantian Zhang, Kaan Kara, <u>Cedric Renggli</u>, Matthew The, Ce Zhang, David M. Rocke, Lukas Käll and William Stafford Noble
+          </div>
+          <div class="pub_journal">
+            Journal of Proteome Research 2019
+          </div>
+          <div class="pub_misc">
+            <a href="https://pubs.acs.org/doi/abs/10.1021/acs.jproteome.9b00288" target="_blank">[Paper]</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-2">
+        <h3>2018</h3>
+      </div>
+      <div class="col-sm-10">
+        <div class="pub">
+          <div class="pub_title">
+            The Convergence of Sparsified Gradient Methods
+          </div>
+          <div class="pub_author">
+            Dan Alistarh,
+            Torsten Hoefler,
+            Mikael Johansson,
+            Nikola Konstantinov,
+            Sarit Khirirat
+            and <u>Cedric Renggli</u> (Authors ordered alphabetically)
+          </div>
+          <div class="pub_journal">
+            Neural Information Processing Systems (NeurIPS) 2018
+          </div>
+          <div class="pub_misc">
+            <a href="http://papers.nips.cc/paper/7837-the-convergence-of-sparsified-gradient-methods" target="_blank">[Paper]</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-2">
+        <h3>2017</h3>
+      </div>
+      <div class="col-sm-10">
+        <div class="pub">
+          <div class="pub_title">
+            MPIML: A High-Performance Sparse Communication Layer for Machine Learning (Poster)
+          </div>
+          <div class="pub_author">
+            <u>Cedric Renggli</u>,
+            Dan Alistarh and
+            Torsten Hoefler
+          </div>
+          <div class="pub_journal">
+            Neural Information Processing Systems (NIPS) 2017, Workshop: Deep Learning At Supercomputer Scale
+          </div>
+          <div class="pub_misc">
+            <a href="files/poster_nips2017.pdf" target="_blank">[Poster]</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-2">
+      &nbsp;
+      </div>
+      <div class="col-sm-10" style="padding-left:0px; padding-right:0px">
+        <hr align="right" class="hr2" />
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-2">
+        <h3>PhD Thesis</h3>
+      </div>
+      <div class="col-sm-10">
+        <div class="pub">
+          <div class="pub_title">
+            Building Data-Centric Systems for Machine Learning Development and Operations
+          </div>
+          <div class="pub_author">
+            <u>Cedric Renggli</u>
+          </div>
+          <div class="pub_journal">
+          </div>
+          <div class="pub_misc">
+            <a href="https://www.research-collection.ethz.ch/handle/20.500.11850/550162" target="_blank">[Thesis]</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-2">
+      &nbsp;
+      </div>
+      <div class="col-sm-10" style="padding-left:0px; padding-right:0px">
+        <hr align="right" class="hr2" />
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-2">
+        <h3>MSc Thesis</h3>
+      </div>
+      <div class="col-sm-10">
+        <div class="pub">
+          <div class="pub_title">
+            Efficient Sparse AllReduce For Scalable Machine Learning
+          </div>
+          <div class="pub_author">
+            <u>Cedric Renggli</u>
+          </div>
+          <div class="pub_journal">
+            <strong>Outstanding thesis award: Silver medal of ETH Zurich</strong>
+          </div>
+          <div class="pub_misc">
+            <a href="files/thesis.pdf" target="_blank">[Thesis]</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-2">
+      &nbsp;
+      </div>
+      <div class="col-sm-10" style="padding-left:0px; padding-right:0px">
+        <hr align="right" class="hr2" />
+      </div>
+    </div>
+
+    <!--<a name="students"></a>
+    <h2>Current & Former Students</h2>
+    <div class="innerleft">
+      <hr class="hr1"/>
+    </div>
+
+    <p>I am extremely lucky to (have) work(ed) with the following students:</p>
+
+    <div class="row">
+      <div class="col-sm-12">
+        <ul>
+          <li>Armando Schmid (Master Thesis ETH 2022)</li>
+          <li>Jonas Egloff (External Bachelor Thesis ETH with Roche 2022)</li>
+          <li>Juan Saez Solana (Bachelor Thesis ETH 2022)</li>
+          <li>Diogo Sampaio Ribeiro (Bachelor Thesis ETH 2022)</li>
+          <li>Alexander Veicht (Bachelor Thesis ETH 2021 and Semester Project ETH 2022)</li>
+          <li>Thórhildur Thorleiksdóttir (Master Thesis ETH 2021)</li>
+          <li>Wilke Grosche (Master Thesis ETH with D-PHYS 2021)</li>
+          <li>Magnus Wuttke (Bachelor Thesis ETH 2021)</li>
+          <li>David Graf (External Master Thesis ETH with IBM 2021)</li>
+          <li>Olga Grigorieva (Bachelor Thesis ETH 2021)</li>
+          <li>Constantin El Ghazi (Semester Project ETH 2021)</li>
+          <li>Cristian Blaga (Semester Project ETH 2021)</li>
+          <li>Dominic Steiner (Bachelor Thesis ETH 2021)</li>
+          <li>Luka Kolar (Master Thesis ETH 2020 and Scientific Assistant at DS3Lab 2021)</li>
+          <li>Maurice Weber (Master Thesis ETH 2019)</li>
+          <li>Spyridon Angelopoulos (Master Thesis ETH 2019)</li>
+        </ul>
+
+      </div>
+    </div>-->
+
+    <a name="contact"></a>
+    <h2>Contact</h2>
+    <div class="innerleft">
+      <hr class="hr1"/>
+    </div>
+
+    <address>
+    <div class="row">
+      <div class="col-sm-2">&nbsp;</div>
+      <div class="col-sm-10 contactbox">
+        <div class="row">
+          <div class="col-sm-4">
+              <strong>Cedric Renggli</strong><br/>
+              Apple Inc.<br/>
+          </div>
+          <div class="col-sm-8">
+            <a href="https://www.linkedin.com/in/cedric-renggli-017832b3/" target="_blank">
+              <span>
+                <svg style="color: rgb(100, 100, 100);" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16"> <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" fill="#646464"></path> </svg>
+              </span> LinkedIn
+            </a> <br/>
+            <a href="https://twitter.com/rengglic" target="_blank">
+              <span>
+                <svg style="color: rgb(100, 100, 100);" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16"> <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" fill="#646464"></path> </svg>
+              </span> Twitter
+            </a> <br />
+            <a href="https://scholar.google.com/citations?user=-gquq44AAAAJ&hl=de&oi=ao" target="_blank">
+              <span>
+                <svg style="color: rgb(100, 100, 100);" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" zoomAndPan="magnify" viewBox="0 0 30 30.000001" height="16" preserveAspectRatio="xMidYMid meet" version="1.0"><defs><clipPath id="id1"><path d="M 3.386719 3 L 27.339844 3 L 27.339844 28 L 3.386719 28 Z M 3.386719 3 " clip-rule="nonzero" fill="#646464"></path></clipPath></defs><g clip-path="url(#id1)"><path fill="#646464" d="M 14.660156 3.25 L 3.386719 10.308594 L 11.125 10.308594 C 11.097656 10.417969 11.050781 10.515625 11.027344 10.625 C 10.960938 10.964844 10.910156 11.34375 10.910156 11.734375 C 10.910156 16.773438 16.054688 16.207031 16.054688 16.207031 L 16.054688 17.492188 C 16.054688 18.011719 16.734375 17.832031 16.816406 18.890625 C 16.476562 18.890625 9.691406 18.695312 9.691406 23.277344 C 9.691406 27.882812 15.679688 27.65625 15.679688 27.65625 C 15.679688 27.65625 22.59375 27.964844 22.59375 22.273438 C 22.597656 18.871094 18.636719 17.765625 18.636719 16.398438 C 18.636719 15.015625 21.621094 14.609375 21.621094 11.375 C 21.621094 9.960938 21.523438 8.953125 20.890625 8.238281 C 20.84375 8.1875 20.808594 8.152344 20.761719 8.121094 C 20.75 8.109375 20.738281 8.101562 20.726562 8.09375 L 20.898438 8.09375 L 23.816406 5.902344 L 23.816406 8.898438 C 23.816406 8.953125 23.820312 9.007812 23.832031 9.0625 C 23.609375 9.1875 23.429688 9.363281 23.300781 9.585938 C 23.171875 9.808594 23.109375 10.050781 23.113281 10.308594 L 23.113281 11.722656 C 23.109375 11.910156 23.144531 12.09375 23.214844 12.269531 C 23.285156 12.445312 23.386719 12.597656 23.515625 12.734375 C 23.648438 12.867188 23.804688 12.972656 23.976562 13.042969 C 24.152344 13.117188 24.332031 13.152344 24.519531 13.152344 C 24.710938 13.152344 24.890625 13.117188 25.066406 13.042969 C 25.238281 12.972656 25.390625 12.867188 25.523438 12.734375 C 25.65625 12.597656 25.757812 12.445312 25.828125 12.269531 C 25.898438 12.09375 25.933594 11.910156 25.929688 11.722656 L 25.929688 10.308594 C 25.933594 10.050781 25.871094 9.808594 25.742188 9.585938 C 25.613281 9.363281 25.433594 9.1875 25.207031 9.0625 C 25.21875 9.007812 25.226562 8.953125 25.226562 8.898438 L 25.226562 4.839844 L 27.339844 3.25 Z M 15.632812 7.5625 C 16.039062 7.542969 16.445312 7.640625 16.835938 7.863281 C 17.125 8.007812 17.402344 8.21875 17.644531 8.480469 C 18.148438 8.984375 18.570312 9.714844 18.796875 10.578125 C 19.332031 12.625 18.636719 14.597656 17.191406 14.96875 C 15.765625 15.375 14.171875 14.039062 13.621094 12.007812 C 13.378906 11.015625 13.410156 10.054688 13.6875 9.292969 C 13.691406 9.28125 13.695312 9.273438 13.699219 9.265625 C 13.703125 9.261719 13.710938 9.257812 13.714844 9.253906 C 13.792969 8.953125 13.921875 8.679688 14.082031 8.457031 C 14.371094 8.035156 14.753906 7.746094 15.226562 7.617188 C 15.363281 7.585938 15.496094 7.566406 15.632812 7.5625 Z M 16.183594 19.75 C 18.566406 19.570312 20.597656 20.886719 20.746094 22.675781 C 20.84375 24.449219 19.007812 26.027344 16.605469 26.1875 C 14.222656 26.351562 12.160156 25.050781 12.046875 23.277344 C 11.933594 21.492188 13.78125 19.929688 16.183594 19.75 Z M 16.183594 19.75 " fill-opacity="1" fill-rule="nonzero"></path></g></svg>
+              </span> Google Scholar
+            </a> <br/>
+                
+          </div>
+        </div>
+      </div>
+    </div>
+    </address>
+
+    </div> <!-- contained end -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>
