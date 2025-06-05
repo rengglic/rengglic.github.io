@@ -24,6 +24,6 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a Senior ML Researcher at [Apple](https://www.apple.com). My main research interest lies at the intersection of data management and AI/ML systems, with a particular focus on how to efficiently, reliably, and responsibly use and manage data throughout the development, evaluation, and maintenance process of AI/ML-based solutions.
+I am a Senior ML Researcher at [Apple](https://www.apple.com). My main research interest lies at the intersection of data management and AI/ML systems, with a particular focus on how to efficiently, reliably, and responsibly use and manage data throughout the development, evaluation, and operational phase of AI/ML-based solutions.
 
 Previously, I was a PostDoc in the [Data Systems and Theory](https://www.ifi.uzh.ch/en/dast.html) group lead by [Dan Olteanu](https://www.ifi.uzh.ch/en/dast/people/Olteanu.html) at UZH. I defended my thesis on _Building Data-Centric Systems for Machine Learning Development and Operations_ at ETH Zurich's [System Group](https://systems.ethz.ch) under the supervision of [Ce Zhang](https://zhangce.github.io). I hold a bachelor's degree from the Bern University of Applied Sciences and received my MSc in Computer Science from ETH Zurich. My work on _Efficient Sparse AllReduce For Scalable Machine Learning_ was awarded with the silver medal of ETH Zurich for outstanding master thesis. During my PhD, I have worked as a research intern and student research consultant at Google Brain (now Google DeepMind).
