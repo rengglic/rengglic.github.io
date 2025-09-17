@@ -26,6 +26,6 @@ latest_posts:
 
 I am a Senior ML Researcher at [Apple](https://www.apple.com). My main research interest lies at the intersection of data management and AI/ML systems, with a particular focus on how to efficiently, reliably, and responsibly use and manage data throughout the development, evaluation, and operational phase of AI/ML-based solutions.
 
-Starting Fall 2025, I will also be an external lecturer at ETH co-teaching a seminar on Systems for AI with [Ana Klimovic](https://anakli.inf.ethz.ch).
+I am also an external lecturer at ETH co-teaching a seminar on [Systems for AI](https://systems.ethz.ch/education/courses/2025-autumn-semester/systems-for-ai-seminar.html) with [Ana Klimovic](https://anakli.inf.ethz.ch).
 
 Previously, I was a PostDoc in the [Data Systems and Theory](https://www.ifi.uzh.ch/en/dast.html) group lead by [Dan Olteanu](https://www.ifi.uzh.ch/en/dast/people/Olteanu.html) at UZH and defended my thesis at ETH Zurich's [System Group](https://systems.ethz.ch) under the supervision of [Ce Zhang](https://zhangce.github.io). I hold a bachelor's degree from the Bern University of Applied Sciences and received my MSc in Computer Science from ETH Zurich. During my PhD, I have worked as a research intern and student research consultant at Google Brain (now Google DeepMind).
