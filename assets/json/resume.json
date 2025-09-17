@@ -2,18 +2,23 @@
   "work": [
     {
       "name": "Apple",
-      "position": " Senior Machine Learning Researcher",
+      "position": "Senior Machine Learning Researcher",
       "startDate": "2024/04"
     },
     {
+      "name": "ETHZ",
+      "position": "External Lecturer",
+      "startDate": "2025/09"
+    },
+    {
       "name": "Apple",
-      "position": " Machine Learning Research Engineer",
+      "position": "Machine Learning Research Engineer",
       "startDate": "2023/03",
       "endDate": "2024/03"
     },
     {
       "name": "DaST Group, University of Zurich",
-      "position": " Postdoctoral Researcher",
+      "position": "Postdoctoral Researcher",
       "startDate": "2022/09",
       "endDate": "2023/02"
     },
