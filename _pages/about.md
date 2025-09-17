@@ -24,7 +24,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a Senior ML Researcher at [Apple](https://www.apple.com). My main research interest lies at the intersection of data management and AI/ML systems, with a particular focus on how to efficiently, reliably, and responsibly use and manage data throughout the development, evaluation, and operational phase of AI/ML-based solutions.
+I am a Senior Researcher at [Apple](https://www.apple.com). My main research interest lies at the intersection of data management and AI/ML systems, with a particular focus on how to efficiently, reliably, and responsibly use and manage data throughout the development, evaluation, and operational phase of AI/ML-based solutions.
 
 I am also an external lecturer at ETH co-teaching a seminar on [Systems for AI](https://systems.ethz.ch/education/courses/2025-autumn-semester/systems-for-ai-seminar.html) with [Ana Klimovic](https://anakli.inf.ethz.ch).
 
