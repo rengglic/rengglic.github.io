@@ -1,6 +1,6 @@
 ---
 layout: post
-title: On noisy retrieval in RAG
+title: An Operational Data Quality View on RAG Pipelines
 date: 2025-11-20 09:00:00
 description: Messy thought around RAG, semantic+structured search, vector databases, and data quality
 tags:
@@ -15,9 +15,8 @@ To kick off the holiday seasons I wanted to write down my thoughts on the curren
 This post is not necessarely the truth, but merely my somewhat biased view on the topic based on my experience, interrests, and deeper believes aligned with my intrisinc motivation to understand a
 field that is currenlty dominated by empirical progress and little fundamental understanding.
 
-<!--
-# Heading 1
+This blog serves as an overview of the main challenges I currently see in the field. I will dvelve into more details for each topic in separat blog posts in the near future. A tentative list of followup blog posts is the following (not necessarily in order of apperence):
 
-## Heading 1.1
-
-# Heading 2 -->
+- Filtered Semantic Search: What is the right abstraction?
+- Faster Dense Retrieval: IVF vs. HNSW
+- On Automatically Optimizing (Filtered) Vector Search
