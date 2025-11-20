@@ -30,18 +30,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-on-noisy-retrieval-in-rag",
-        
-          title: "On noisy retrieval in RAG",
-        
-        description: "Messy thought around RAG, semantic+structured search, vector databases, and data quality",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2025/noisy-retrievel-RAG/";
-          
-        },
-      },{id: "news-new-website-is-online",
+        },{id: "news-new-website-is-online",
           title: 'New website is online.',
           description: "",
           section: "News",},{
