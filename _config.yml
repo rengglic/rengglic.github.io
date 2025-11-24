@@ -86,7 +86,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # -----------------------------------------------------------------------------
 
 blog_name: Cedric's blog # blog_name will be displayed in your blog page
-blog_description: Under cunstruction
+blog_description: On AI Systems Design and Engineering
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
