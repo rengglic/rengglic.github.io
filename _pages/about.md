@@ -25,7 +25,7 @@ latest_posts:
 ---
 
 I am a Senior Researcher at [Apple](https://www.apple.com).
-My work and research interests lie at the intersection of data management and AI/ML systems, with a focus on enabling efficient, reliable, and responsible data access and management across the development, evaluation, and operational lifecycle of AI/ML-based solutions.
+I work on efficient AI and data systems, focusing on how large-scale AI workloads, such as retrieval-augmented generation and agent-based inference, can be served reliably and efficiently under real-world constraints. My research emphasizes principled abstractions, declarative system design, and the identification of fundamental trade-offs that shape scalable, trustworthy AI infrastructure.
 
 I am also an external lecturer at ETH co-teaching a seminar on [Systems for AI](https://systems.ethz.ch/education/courses/2025-autumn-semester/systems-for-ai-seminar.html) with [Ana Klimovic](https://anakli.inf.ethz.ch).
 
