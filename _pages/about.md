@@ -25,7 +25,7 @@ latest_posts:
 ---
 
 I am a Senior Researcher at [Apple](https://www.apple.com).
-I work on efficient AI and data systems, focusing on how large-scale AI workloads, such as retrieval-augmented generation and agent-based inference, can be served reliably and efficiently under real-world constraints. My research emphasizes principled abstractions, declarative system design, and the identification of fundamental trade-offs that shape scalable, trustworthy AI infrastructure.
+I work on efficient AI and data systems, focusing on how large-scale AI workloads, such as retrieval-augmented generation and agent-based inference, can be trained and served reliably and efficiently under real-world constraints. My research emphasizes principled abstractions, declarative system design, and the identification of fundamental trade-offs that shape scalable, trustworthy AI infrastructure.
 
 I am also an external lecturer at ETH co-teaching a seminar on [Systems for AI](https://systems.ethz.ch/education/courses/2025-autumn-semester/systems-for-ai-seminar.html) with [Ana Klimovic](https://anakli.inf.ethz.ch). My intro slides summarizing the fast-moving space are available [here](https://docs.google.com/presentation/d/1DUjptGUfT6A__kuNDKbKLh1Yk3v8R0vUxCL4FiXd7lk/edit?usp=sharing).
 
