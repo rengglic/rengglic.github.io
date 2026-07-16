@@ -25,12 +25,13 @@ latest_posts:
 ---
 
 I am a Senior Researcher and Lecturer at [ETH](https://inf.ethz.ch)'s [Systems Group](https://systems.ethz.ch) working with [Ana Klimovic](https://anakli.inf.ethz.ch).
+
 My research is centered around efficient AI and data systems, focusing on how large-scale AI workloads, such as retrieval-augmented generation and agent-based inference, can be served reliably and efficiently under real-world constraints. My work emphasizes principled abstractions, declarative system design, and the identification of fundamental trade-offs that shape scalable, trustworthy AI infrastructure.
 
 I am co-teaching a seminar on [Systems for AI](https://systems.ethz.ch/education/courses/2025-autumn-semester/systems-for-ai-seminar.html) . My intro slides summarizing the fast-moving space are available [here](https://docs.google.com/presentation/d/1DUjptGUfT6A__kuNDKbKLh1Yk3v8R0vUxCL4FiXd7lk/edit?usp=sharing).
 
 Previously, I was a Senior Researcher at [Apple](https://www.apple.com), a PostDoc at UZH ([DaST](https://www.ifi.uzh.ch/en/dast.html) with [Dan Olteanu](https://www.ifi.uzh.ch/en/dast/people/Olteanu.html)) and defended my thesis at [ETH](https://inf.ethz.ch)'s [Systems Group](https://systems.ethz.ch) with [Ce Zhang](https://zhangce.github.io).
 
-**If you are interested in my research or potential collaborations, please feel free to reach out. ETH students seeking to conduct a project or thesis with me should contact me directly via email with their CV and transcript of records attached.**
+**If you are interested in collaboration, please reach out directly. I also welcome motivated students at ETH for projects and theses. To apply, send me an email with your CV and transcript of records attached.**
 
 <!-- During my PhD, I have worked as a research intern and student research consultant at Google Brain (now Google DeepMind). -->
