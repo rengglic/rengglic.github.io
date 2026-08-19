@@ -41,13 +41,13 @@ Previously, I was a Senior Researcher at [Apple](https://www.apple.com), a PostD
     <div class="card-header" id="headingFocus1">
       <h5 class="mb-0">
         <button class="btn btn-link w-100" type="button" data-toggle="collapse" data-target="#collapseFocus1" aria-expanded="false" aria-controls="collapseFocus1">
-          Systems for Efficient AI Inference and State Management
+          I. Systems for Efficient AI Inference and State Management
         </button>
       </h5>
     </div>
     <div id="collapseFocus1" class="collapse" aria-labelledby="headingFocus1" data-parent="#researchFocusAccordion">
       <div class="card-body">
-        As large-scale machine learning models become central to modern applications, the underlying systems must efficiently manage computation and intermediate state under tight latency and resource constraints. Our research focuses on the systems challenges of serving complex, sequential AI workloads, such as large language models and reinforcement learning pipelines. We design distributed infrastructure and scheduling mechanisms that optimize memory hierarchy and intermediate state management—like key-value caching—across heterogeneous hardware. By bridging the gap between model architectures and physical hardware constraints, we aim to improve the throughput, reliability, and cost-efficiency of AI serving systems in production environments.
+        As large‑scale machine‑learning models become central to modern applications, the underlying systems must efficiently manage computation and intermediate state under tight latency and resource constraints. Our research focuses on the systems challenges of serving complex, sequential AI workloads, such as large language models and reinforcement‑learning pipelines, including secure sandboxed executions. We design distributed infrastructure and scheduling mechanisms that optimize the memory hierarchy and intermediate state (e.g., key‑value caching) while accounting for secure tool execution across heterogeneous hardware. By bridging the gap between model architectures and physical hardware constraints, we aim to improve the throughput, reliability, and cost‑efficiency of AI serving systems in production environments. 
       </div>
     </div>
   </div>
@@ -55,13 +55,13 @@ Previously, I was a Senior Researcher at [Apple](https://www.apple.com), a PostD
     <div class="card-header" id="headingFocus2">
       <h5 class="mb-0">
         <button class="btn btn-link w-100" type="button" data-toggle="collapse" data-target="#collapseFocus2" aria-expanded="false" aria-controls="collapseFocus2">
-          Modeling and Predicting Interactive System Behavior
+          II. Modeling and Predicting Interactive System Behavior
         </button>
       </h5>
     </div>
     <div id="collapseFocus2" class="collapse" aria-labelledby="headingFocus2" data-parent="#researchFocusAccordion">
       <div class="card-body">
-        Modern AI systems increasingly operate dynamically, adapting their behavior based on continuous user interactions and tool utilization. Understanding how these systems perform in real-world settings requires moving beyond static benchmarks and analyzing the execution traces generated during deployment. We investigate methods to model and predict the outcomes of these interactive workloads, such as anticipating resource requirements or determining optimal model-switching strategies in real-time serving engines. By developing systems that can learn from and act upon execution traces, we aim to improve the adaptability, reliability, and overall performance of interactive AI applications.
+        Modern AI systems increasingly operate dynamically, adapting their behavior based on continuous user interactions and tool utilization. Understanding how these systems perform in real‑world settings requires moving beyond static benchmarks and analyzing the execution traces generated during deployment. We investigate methods to model and predict the outcomes of these interactive workloads—such as anticipating resource requirements or determining optimal model‑switching strategies in real‑time serving engines. By developing systems that can learn from and act upon execution traces, we aim to improve the adaptability, reliability, and overall performance of interactive AI applications. 
       </div>
     </div>
   </div>
@@ -69,13 +69,13 @@ Previously, I was a Senior Researcher at [Apple](https://www.apple.com), a PostD
     <div class="card-header" id="headingFocus3">
       <h5 class="mb-0">
         <button class="btn btn-link w-100" type="button" data-toggle="collapse" data-target="#collapseFocus3" aria-expanded="false" aria-controls="collapseFocus3">
-          Trustworthy Evaluation and Noise Characterization for AI Systems
+          III. Trustworthy Evaluation and Noise Characterization for AI Systems
         </button>
       </h5>
     </div>
     <div id="collapseFocus3" class="collapse" aria-labelledby="headingFocus3" data-parent="#researchFocusAccordion">
       <div class="card-body">
-        The reliability of AI systems heavily depends on our ability to accurately evaluate their performance, which is often obscured by noise from various sources in the deployment pipeline. Our research addresses the fundamental challenge of isolating true model behavior from artifacts introduced by infrastructure, evaluation sandboxes, biased metrics, and low-quality data. We build tools and methodologies for automatic feasibility assessment, data quality analysis, and noise disentanglement to better understand the fundamental limits and actual system performance. By providing a more precise picture of system behavior under real-world conditions, we enable practitioners to build more trustworthy and robust AI pipelines.
+        The reliability of AI systems heavily depends on our ability to accurately evaluate their performance, which is often obscured by noise from various sources in the deployment pipeline. Our research addresses the fundamental challenge of isolating true model behavior from artifacts introduced by infrastructure, evaluation sandboxes, biased metrics, and low‑quality data. We build tools and methodologies for automatic feasibility assessment, data‑quality analysis, and noise disentanglement to better understand the fundamental limits and actual system performance. By providing a more precise picture of system behavior under real‑world conditions, we enable practitioners to build more trustworthy and robust AI pipelines.
       </div>
     </div>
   </div>

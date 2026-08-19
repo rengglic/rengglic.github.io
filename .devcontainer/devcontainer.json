@@ -27,7 +27,7 @@
       }
     }
   },
-  
+
   "mounts": [
     // 1. Mounts your layout/model customizations
     "source=${localEnv:HOME}/.config/opencode,target=${containerWorkspaceFolder}/../.config/opencode,type=bind",
