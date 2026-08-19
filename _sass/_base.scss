@@ -183,6 +183,53 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
+// Research focus accordion (about page)
+
+.research-accordion {
+  margin-bottom: 2.5rem;
+
+  .card {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid var(--global-divider-color);
+    border-radius: 0;
+  }
+
+  .card-header {
+    padding: 0;
+    background: transparent;
+    border: none;
+  }
+
+  .btn {
+    padding: 0.65rem 0.25rem;
+    color: var(--global-text-color);
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: left;
+    text-decoration: none;
+
+    &:hover,
+    &:focus {
+      color: var(--global-theme-color);
+      text-decoration: none;
+      box-shadow: none;
+    }
+
+    &[aria-expanded="true"] {
+      color: var(--global-theme-color);
+    }
+  }
+
+  .card-body {
+    margin-top: 0.25rem;
+    padding: 0.5rem 0.5rem 1rem;
+    color: var(--global-text-color);
+    font-size: 0.95rem;
+    line-height: 1.5;
+  }
+}
+
 // Citation
 
 .citation,
