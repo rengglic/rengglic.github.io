@@ -25,6 +25,7 @@ latest_posts:
 ---
 
 I am a Senior Researcher and Lecturer at [ETH](https://inf.ethz.ch)'s [Systems Group](https://systems.ethz.ch) working with [Ana Klimovic](https://anakli.inf.ethz.ch). I am co-teaching a seminar on [Systems for AI](https://systems.ethz.ch/education/courses/2025-autumn-semester/systems-for-ai-seminar.html).
+
 <!-- My intro slides summarizing the fast-moving space are available [here](https://docs.google.com/presentation/d/1DUjptGUfT6A__kuNDKbKLh1Yk3v8R0vUxCL4FiXd7lk/edit?usp=sharing). -->
 
 My research is centered around efficient AI and data systems, focusing on how large-scale AI workloads can be served reliably and efficiently under real-world constraints. My work emphasizes principled abstractions, declarative system design, and the identification of fundamental trade-offs that shape scalable, trustworthy AI infrastructure.
