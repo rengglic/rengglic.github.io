@@ -28,7 +28,7 @@ I am a Senior Researcher and Lecturer at [ETH](https://inf.ethz.ch)'s [Systems G
 
 <!-- My intro slides summarizing the fast-moving space are available [here](https://docs.google.com/presentation/d/1DUjptGUfT6A__kuNDKbKLh1Yk3v8R0vUxCL4FiXd7lk/edit?usp=sharing). -->
 
-My research lies at the intersection of data management, machine learning, and computer systems. I develop principled abstractions and systems for efficient and reliable AI, spanning data-quality and feasibility analysis, model selection and evaluation, and interaction-aware optimizations.
+My research lies at the intersection of AI systems and data management. I design efficient and reliable systems for emerging AI workloads, focusing on how the data they consume and generate is managed and used. My work spans data systems for AI, scalable serving architectures, and methods for separating data and evaluation effects from model quality.
 
 Previously, I was a Senior Researcher at [Apple](https://www.apple.com), a PostDoc at UZH ([DaST](https://www.ifi.uzh.ch/en/dast.html) with [Dan Olteanu](https://www.ifi.uzh.ch/en/dast/people/Olteanu.html)) and defended my thesis at [ETH](https://inf.ethz.ch)'s [Systems Group](https://systems.ethz.ch) with [Ce Zhang](https://zhangce.github.io).
 
@@ -41,13 +41,13 @@ Previously, I was a Senior Researcher at [Apple](https://www.apple.com), a PostD
     <div class="card-header" id="headingFocus1">
       <h5 class="mb-0">
         <button class="btn btn-link w-100" type="button" data-toggle="collapse" data-target="#collapseFocus1" aria-expanded="false" aria-controls="collapseFocus1">
-          I. Efficient AI Systems
+          I. Data Systems for AI
         </button>
       </h5>
     </div>
     <div id="collapseFocus1" class="collapse" aria-labelledby="headingFocus1" data-parent="#researchFocusAccordion">
       <div class="card-body">
-        I design declarative abstractions and system mechanisms that reduce the data, computational, and operational costs of AI workloads. This work spans feasibility analysis, model search and reuse, continuous integration, scalable training and inference, and state management.
+        I develop systems for efficiently organizing, maintaining, and retrieving data for AI applications, including scalable vector search. I also study how traces of interactions among users, models, and tools can be represented and learned from.
       </div>
     </div>
   </div>
@@ -55,13 +55,13 @@ Previously, I was a Senior Researcher at [Apple](https://www.apple.com), a PostD
     <div class="card-header" id="headingFocus2">
       <h5 class="mb-0">
         <button class="btn btn-link w-100" type="button" data-toggle="collapse" data-target="#collapseFocus2" aria-expanded="false" aria-controls="collapseFocus2">
-          II. Learning from AI Interactions
+          II. Efficient AI Serving
         </button>
       </h5>
     </div>
     <div id="collapseFocus2" class="collapse" aria-labelledby="headingFocus2" data-parent="#researchFocusAccordion">
       <div class="card-body">
-        I investigate how traces of interactions among users, models, and tools can be transformed into reliable signals about workload characteristics, successful strategies, failure modes, and reusable knowledge. These signals can inform model selection, context augmentation, clarification, early termination, and systems-level resource management.
+        I build scalable and resource-efficient architectures for serving emerging AI workloads. This work includes general mechanisms for execution and state management, as well as adaptive optimizations informed by workload and interaction signals.
       </div>
     </div>
   </div>
@@ -69,13 +69,13 @@ Previously, I was a Senior Researcher at [Apple](https://www.apple.com), a PostD
     <div class="card-header" id="headingFocus3">
       <h5 class="mb-0">
         <button class="btn btn-link w-100" type="button" data-toggle="collapse" data-target="#collapseFocus3" aria-expanded="false" aria-controls="collapseFocus3">
-          III. Reliable Evaluation and Data Quality
+          III. Data Quality & Evaluation
         </button>
       </h5>
     </div>
     <div id="collapseFocus3" class="collapse" aria-labelledby="headingFocus3" data-parent="#researchFocusAccordion">
       <div class="card-body">
-        I develop methods for characterizing data-quality limitations, disentangling sources of evaluation noise, and measuring AI-system behavior under realistic conditions. This work distinguishes inherent task and model limitations from artifacts introduced by data, evaluation metrics, or execution environments.
+        I study how data quality and evaluation choices influence observed AI-system performance during both evaluation and operation. My goal is to disentangle these effects from model quality and identify the underlying limitations of the complete AI system.
       </div>
     </div>
   </div>
