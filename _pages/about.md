@@ -28,7 +28,7 @@ I am a Senior Researcher and Lecturer at [ETH](https://inf.ethz.ch)'s [Systems G
 
 <!-- My intro slides summarizing the fast-moving space are available [here](https://docs.google.com/presentation/d/1DUjptGUfT6A__kuNDKbKLh1Yk3v8R0vUxCL4FiXd7lk/edit?usp=sharing). -->
 
-My research lies at the intersection of data management and AI systems. I research and build systems that make emerging AI workloads efficient, adaptive, and measurable. My work addresses three connected questions: How should AI systems manage the data and knowledge they consume and produce? How can stateful AI workloads be executed efficiently? And how can their behavior be measured reliably from noisy observations?
+My research lies at the intersection of data management and AI systems. I research approaches that make emerging AI workloads efficient, adaptive, and measurable. My work addresses three connected questions: How should AI systems manage the data and knowledge they consume and produce? How can stateful AI workloads be executed efficiently? And how can their behavior be measured reliably from noisy observations?
 
 Previously, I was a Senior Researcher at [Apple](https://www.apple.com), a PostDoc at UZH ([DaST](https://www.ifi.uzh.ch/en/dast.html) with [Dan Olteanu](https://www.ifi.uzh.ch/en/dast/people/Olteanu.html)) and defended my thesis at [ETH](https://inf.ethz.ch)'s [Systems Group](https://systems.ethz.ch) with [Ce Zhang](https://zhangce.github.io).
 
