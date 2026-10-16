@@ -9,16 +9,22 @@
     "ghcr.io/rocker-org/devcontainer-features/apt-packages:1": {
       "packages": "build-essential,imagemagick,inotify-tools,jupyter-nbconvert,procps,ruby-full,zlib1g-dev"
     },
-    "ghcr.io/devcontainers-extra/features/prettier:1.0.2": {},
-    "ghcr.io/danzilberdan/devcontainers/opencode:0": {}
+    "ghcr.io/devcontainers-extra/features/prettier:1.0.2": {}
   },
+
+  // Install gems inside the project instead of the root-owned /usr/local/bundle
+  "containerEnv": {
+    "BUNDLE_PATH": "${containerWorkspaceFolder}/vendor/bundle"
+  },
+
+  "postCreateCommand": "bundle install",
 
   // Optionally: run jekyll serve automatically on container entering using the Docker entrypoint
   "postAttachCommand": "./bin/entry_point.sh",
 
   "customizations": {
     "vscode": {
-      "extensions": ["esbenp.prettier-vscode", "sissel.shopify-liquid", "yzhang.markdown-all-in-one", "anomalyco.opencode"],
+      "extensions": ["esbenp.prettier-vscode", "sissel.shopify-liquid", "yzhang.markdown-all-in-one"],
       "settings": {
         // use prettier code formatter as default formatter
         "editor.defaultFormatter": "esbenp.prettier-vscode",
@@ -27,14 +33,6 @@
       }
     }
   },
-
-  "mounts": [
-    // 1. Mounts your layout/model customizations
-    "source=${localEnv:HOME}/.config/opencode,target=${containerWorkspaceFolder}/../.config/opencode,type=bind",
-    // 2. Mounts your encrypted Claude API keys and credentials
-    "source=${localEnv:HOME}/.local/share/opencode,target=${containerWorkspaceFolder}/../.local/share/opencode,type=bind"
-  ],
-  "postCreateCommand": "mkdir -p ~/.config ~/.local/share && ln -s ${containerWorkspaceFolder}/../.config/opencode ~/.config/opencode && ln -s ${containerWorkspaceFolder}/../.local/share/opencode ~/.local/share/opencode && opencode --version",
 
   "remoteUser": "vscode"
 }
