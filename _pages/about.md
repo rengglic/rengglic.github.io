@@ -36,8 +36,6 @@ Previously, I was a Senior Researcher at [Apple](https://www.apple.com) and a Po
 
 With talented students and collaborators, I work on two broad areas.
 
-With talented students and collaborators, I work on two broad areas.
-
 <div class="research-area" markdown="1"> <h3>Efficiency</h3>
 
 I currently lead projects on efficient AI serving and post-training, together with CSCS and the Swiss AI Initiative. My work uses signals from models, tools, and user interactions to route requests to the cheapest capable model, decide which KV-cache state to keep or evict, and stop agent trajectories that are unlikely to succeed. For reinforcement-learning post-training, I study how to schedule and isolate sandboxes so that GPU and CPU work overlap.
