@@ -26,9 +26,7 @@ latest_posts:
 
 I am a Senior Researcher and Lecturer at [ETH](https://inf.ethz.ch)'s [Systems Group](https://systems.ethz.ch), working with [Ana Klimovic](https://anakli.inf.ethz.ch).
 
-**I work at the intersection of data management and AI systems.**
-
-Data challenges arise at every layer of modern AI. Models are trained on large, continuously evolving datasets. At inference time, they retrieve information from vector indexes and databases and accumulate state such as KV caches. Their quality is assessed with benchmarks, which are themselves datasets. We bring core principles of data management (indexing, caching, incremental maintenance, query optimization, and statistical rigor) to the systems that train, serve, and evaluate AI.
+I do research at the intersection of data management and AI systems. My goal is to make AI systems efficient and reliable, so that users reach validated results with less computation, data, and expert effort.
 
 Previously, I was a Senior Researcher at [Apple](https://www.apple.com) and a PostDoc at UZH ([DaST](https://www.ifi.uzh.ch/en/dast.html), with [Dan Olteanu](https://www.ifi.uzh.ch/en/dast/people/Olteanu.html)). I received my PhD from [ETH](https://inf.ethz.ch)'s [Systems Group](https://systems.ethz.ch), advised by [Ce Zhang](https://zhangce.github.io).
 
@@ -36,20 +34,18 @@ Previously, I was a Senior Researcher at [Apple](https://www.apple.com) and a Po
 
 <h2 class="mb-3">Research</h2>
 
-Our research spans two areas, corresponding to the two sides of this intersection.
+With talented students and collaborators, I work on two broad areas.
 
-<div class="research-area" markdown="1">
-<h3>1. Data management for AI</h3>
-<p class="research-question">How can we organize, search, and assess the data that AI systems are built on and evaluated with?</p>
+<div class="research-area" markdown="1"> <h3>Efficient AI systems</h3>
 
-We build systems that manage the data AI depends on. Examples include [SHiFT](https://www.vldb.org/pvldb/vol16/p304-renggli.pdf), a search engine over large repositories of pretrained models (VLDB'22); [CorgiPile](https://dl.acm.org/doi/abs/10.1007/s00778-024-00845-0), which enables efficient in-database training without a full data shuffle (VLDB Journal'24); and [Ada-IVF](https://arxiv.org/pdf/2411.00970), which maintains vector-search indexes under streaming updates, complemented by [hardware–algorithm co-design for vector search](https://dl.acm.org/doi/abs/10.1145/3581784.3607045) (SC'23).
+I currently lead projects on efficient AI serving and post-training, together with CSCS and the Swiss AI Initiative. My work uses signals from models, tools, and user interactions to route requests to the cheapest capable model, decide which KV-cache state to keep or evict, and stop agent trajectories that are unlikely to succeed. For reinforcement-learning post-training, I study how to schedule and isolate sandboxes so that GPU and CPU work overlap.
 
-The same perspective applies to evaluation, since benchmarks are data as well. Observed performance reflects not only model capability, but also data quality, benchmark construction, and random variation. We develop methods to disentangle these factors: estimating from the data alone whether a target accuracy is attainable ([Snoopy](https://ieeexplore.ieee.org/abstract/document/10184817), ICDE'23), statistically rigorous testing of ML models ([ease.ml/ci](https://proceedings.mlsys.org/paper_files/paper/2019/file/4284d31e68c0a4a39dcdad167ac4bd72-Paper.pdf), SysML'19), and identifying ambiguities and metric biases in [Text-to-SQL benchmarks](https://arxiv.org/pdf/2501.18197) (2025).
-</div>
+Earlier work includes SparCML, sparse communication for distributed training (SC'19); SHiFT, a search engine for pretrained models (VLDB'22); CorgiPile, in-database training without a full data shuffle (VLDB Journal'24); and Ada-IVF, incremental index maintenance for streaming vector search.
 
-<div class="research-area" markdown="1">
-<h3>2. Systems for large-scale AI</h3>
-<p class="research-question">How can we train and serve large models efficiently?</p>
+</div> <div class="research-area" markdown="1"> <h3>Reliable AI through data</h3>
 
-Our earlier work reduced communication costs in distributed training ([SparCML](https://dl.acm.org/doi/abs/10.1145/3295500.3356222), SC'19) and made training robust to unreliable networks ([ICML'19](https://proceedings.mlr.press/v97/yu19f/yu19f.pdf)). Our current focus is LLM inference and agentic workloads, which accumulate state over many steps, including KV caches, retrieved context, and tool outputs. We treat this state as data that must be cached, placed, and scheduled efficiently across GPUs and machines.
+I study how data determines what an AI system can achieve, and how to tell whether it works. Snoopy estimates the best achievable accuracy for a task from the data alone, before any model is trained (ICDE'23), building on FeeBee, a framework for evaluating Bayes error estimators (NeurIPS'21). ease.ml/ci provides continuous integration for ML models with statistical guarantees (SysML'19). My work on Text2SQL evaluation separates the limitations of a solution from those of the evaluation data and metrics (2025).
+
+I currently extend these ideas to agentic workloads, where environment failures are easily mistaken for model failures and every efficiency gain should come with a statement of what it may cost in correctness.
+
 </div>
