@@ -183,6 +183,30 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
+// Research areas (about page)
+
+.research-area {
+  border-left: 3px solid var(--global-theme-color);
+  padding: 2px 0 2px 1rem;
+  margin-bottom: 1.4rem;
+
+  h3 {
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin: 0 0 2px;
+  }
+
+  .research-question {
+    font-style: italic;
+    color: var(--global-text-color-light);
+    margin-bottom: 0.4rem;
+  }
+
+  p:last-child {
+    margin-bottom: 0;
+  }
+}
+
 // Research focus accordion (about page)
 
 .research-accordion {
