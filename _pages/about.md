@@ -36,16 +36,18 @@ Previously, I was a Senior Researcher at [Apple](https://www.apple.com) and a Po
 
 With talented students and collaborators, I work on two broad areas.
 
-<div class="research-area" markdown="1"> <h3>Efficient AI systems</h3>
+With talented students and collaborators, I work on two broad areas.
+
+<div class="research-area" markdown="1"> <h3>Efficiency</h3>
 
 I currently lead projects on efficient AI serving and post-training, together with CSCS and the Swiss AI Initiative. My work uses signals from models, tools, and user interactions to route requests to the cheapest capable model, decide which KV-cache state to keep or evict, and stop agent trajectories that are unlikely to succeed. For reinforcement-learning post-training, I study how to schedule and isolate sandboxes so that GPU and CPU work overlap.
 
 Earlier work includes SparCML, sparse communication for distributed training (SC'19); SHiFT, a search engine for pretrained models (VLDB'22); CorgiPile, in-database training without a full data shuffle (VLDB Journal'24); and Ada-IVF, incremental index maintenance for streaming vector search.
 
-</div> <div class="research-area" markdown="1"> <h3>Reliable AI through data</h3>
+</div> <div class="research-area" markdown="1"> <h3>Reliability</h3>
 
-I study how data determines what an AI system can achieve, and how to tell whether it works. Snoopy estimates the best achievable accuracy for a task from the data alone, before any model is trained (ICDE'23), building on FeeBee, a framework for evaluating Bayes error estimators (NeurIPS'21). ease.ml/ci provides continuous integration for ML models with statistical guarantees (SysML'19). My work on Text2SQL evaluation separates the limitations of a solution from those of the evaluation data and metrics (2025).
+I study what limits the quality of AI and how to verify that it works. Much of this work is data-centric. Snoopy estimates the best achievable accuracy for a task from the data alone, before any model is trained (ICDE'23), building on FeeBee, a framework for evaluating Bayes error estimators (NeurIPS'21). ease.ml/ci provides continuous integration for ML models with statistical guarantees (SysML'19). My work on Text2SQL evaluation separates the limitations of a solution from those of the evaluation data and metrics (2025).
 
-I currently extend these ideas to agentic workloads, where environment failures are easily mistaken for model failures and every efficiency gain should come with a statement of what it may cost in correctness.
+Quality issues also arise beyond the data. In agentic workloads, environment friction such as flaky tests, missing dependencies, and timeouts is easily mistaken for model failure and corrupts reward signals during post-training. I currently study how to detect and separate these effects, so that every efficiency gain comes with a statement of what it may cost in correctness.
 
 </div>
